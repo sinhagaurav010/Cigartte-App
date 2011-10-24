@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C85E28114556E6F008AAA9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C85E28014556E6F008AAA9A /* UIKit.framework */; };
+		1C85E28314556E6F008AAA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C85E28214556E6F008AAA9A /* Foundation.framework */; };
+		1C85E28514556E6F008AAA9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C85E28414556E6F008AAA9A /* CoreGraphics.framework */; };
+		1C85E28B14556E6F008AAA9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C85E28914556E6F008AAA9A /* InfoPlist.strings */; };
+		1C85E28D14556E6F008AAA9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E28C14556E6F008AAA9A /* main.m */; };
+		1C85E29114556E6F008AAA9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E29014556E6F008AAA9A /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C85E27C14556E6F008AAA9A /* CigratteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CigratteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C85E28014556E6F008AAA9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C85E28214556E6F008AAA9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C85E28414556E6F008AAA9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C85E28814556E6F008AAA9A /* CigratteApp-Info.plist */ = {isa = PBXFileReference; path = "CigratteApp-Info.plist"; sourceTree = "<group>"; };
+		1C85E28A14556E6F008AAA9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C85E28C14556E6F008AAA9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C85E28E14556E6F008AAA9A /* CigratteApp-Prefix.pch */ = {isa = PBXFileReference; path = "CigratteApp-Prefix.pch"; sourceTree = "<group>"; };
+		1C85E28F14556E6F008AAA9A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C85E29014556E6F008AAA9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C85E27914556E6F008AAA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C85E28114556E6F008AAA9A /* UIKit.framework in Frameworks */,
+				1C85E28314556E6F008AAA9A /* Foundation.framework in Frameworks */,
+				1C85E28514556E6F008AAA9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C85E27114556E6F008AAA9A = {
+			isa = PBXGroup;
+			children = (
+				1C85E28614556E6F008AAA9A /* CigratteApp */,
+				1C85E27F14556E6F008AAA9A /* Frameworks */,
+				1C85E27D14556E6F008AAA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C85E27D14556E6F008AAA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E27C14556E6F008AAA9A /* CigratteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C85E27F14556E6F008AAA9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E28014556E6F008AAA9A /* UIKit.framework */,
+				1C85E28214556E6F008AAA9A /* Foundation.framework */,
+				1C85E28414556E6F008AAA9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C85E28614556E6F008AAA9A /* CigratteApp */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E28F14556E6F008AAA9A /* AppDelegate.h */,
+				1C85E29014556E6F008AAA9A /* AppDelegate.m */,
+				1C85E28714556E6F008AAA9A /* Supporting Files */,
+			);
+			path = CigratteApp;
+			sourceTree = "<group>";
+		};
+		1C85E28714556E6F008AAA9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E28814556E6F008AAA9A /* CigratteApp-Info.plist */,
+				1C85E28914556E6F008AAA9A /* InfoPlist.strings */,
+				1C85E28C14556E6F008AAA9A /* main.m */,
+				1C85E28E14556E6F008AAA9A /* CigratteApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C85E27B14556E6F008AAA9A /* CigratteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C85E29414556E6F008AAA9A /* Build configuration list for PBXNativeTarget "CigratteApp" */;
+			buildPhases = (
+				1C85E27814556E6F008AAA9A /* Sources */,
+				1C85E27914556E6F008AAA9A /* Frameworks */,
+				1C85E27A14556E6F008AAA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CigratteApp;
+			productName = CigratteApp;
+			productReference = 1C85E27C14556E6F008AAA9A /* CigratteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C85E27314556E6F008AAA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "rohit@bosswebtech.com";
+			};
+			buildConfigurationList = 1C85E27614556E6F008AAA9A /* Build configuration list for PBXProject "CigratteApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C85E27114556E6F008AAA9A;
+			productRefGroup = 1C85E27D14556E6F008AAA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C85E27B14556E6F008AAA9A /* CigratteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C85E27A14556E6F008AAA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C85E28B14556E6F008AAA9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C85E27814556E6F008AAA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C85E28D14556E6F008AAA9A /* main.m in Sources */,
+				1C85E29114556E6F008AAA9A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C85E28914556E6F008AAA9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C85E28A14556E6F008AAA9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C85E29214556E6F008AAA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C85E29314556E6F008AAA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C85E29514556E6F008AAA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CigratteApp/CigratteApp-Prefix.pch";
+				INFOPLIST_FILE = "CigratteApp/CigratteApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C85E29614556E6F008AAA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CigratteApp/CigratteApp-Prefix.pch";
+				INFOPLIST_FILE = "CigratteApp/CigratteApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C85E27614556E6F008AAA9A /* Build configuration list for PBXProject "CigratteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C85E29214556E6F008AAA9A /* Debug */,
+				1C85E29314556E6F008AAA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C85E29414556E6F008AAA9A /* Build configuration list for PBXNativeTarget "CigratteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C85E29514556E6F008AAA9A /* Debug */,
+				1C85E29614556E6F008AAA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C85E27314556E6F008AAA9A /* Project object */;
+}
