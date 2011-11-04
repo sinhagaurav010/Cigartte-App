@@ -2,14 +2,16 @@
 //  AppDelegate.h
 //  CigratteApp
 //
-//  Created by Rohit Dhawan on 24/10/11.
-//  Copyright (c) 2011 rohit@bosswebtech.com. All rights reserved.
-//
+ //
 
 #import <UIKit/UIKit.h>
-
+#import "LoginViewController.h"
+#import "Constant.h"
+#import "UserLocationFinder.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    UINavigationController *navigation;
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @end

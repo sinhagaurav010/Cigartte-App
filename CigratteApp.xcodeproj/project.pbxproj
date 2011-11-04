@@ -7,25 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C43AA0C1455920300B23603 /* button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C43AA0B1455920300B23603 /* button.jpg */; };
+		1C43AA1214559DB000B23603 /* LoginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43AA1014559DB000B23603 /* LoginPageViewController.m */; };
+		1C43AA1314559DB000B23603 /* LoginPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C43AA1114559DB000B23603 /* LoginPageViewController.xib */; };
+		1C43AA1814559DDD00B23603 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C43AA1614559DDD00B23603 /* RegistrationViewController.m */; };
+		1C43AA1914559DDD00B23603 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C43AA1714559DDD00B23603 /* RegistrationViewController.xib */; };
 		1C85E28114556E6F008AAA9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C85E28014556E6F008AAA9A /* UIKit.framework */; };
 		1C85E28314556E6F008AAA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C85E28214556E6F008AAA9A /* Foundation.framework */; };
 		1C85E28514556E6F008AAA9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C85E28414556E6F008AAA9A /* CoreGraphics.framework */; };
 		1C85E28B14556E6F008AAA9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C85E28914556E6F008AAA9A /* InfoPlist.strings */; };
 		1C85E28D14556E6F008AAA9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E28C14556E6F008AAA9A /* main.m */; };
 		1C85E29114556E6F008AAA9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E29014556E6F008AAA9A /* AppDelegate.m */; };
+		1C85E29A14556ECF008AAA9A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E29814556ECF008AAA9A /* LoginViewController.m */; };
+		1C85E29B14556ECF008AAA9A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C85E29914556ECF008AAA9A /* LoginViewController.xib */; };
+		1C85E29F14556EF3008AAA9A /* ModalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E29D14556EF3008AAA9A /* ModalController.m */; };
+		1C85E2A6145574FA008AAA9A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E2A4145574FA008AAA9A /* MBProgressHUD.m */; };
+		1C85E2AA145576FA008AAA9A /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C85E2A9145576FA008AAA9A /* XMLReader.m */; };
+		1C85E2AD14558BF0008AAA9A /* CigBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C85E2AC14558BEF008AAA9A /* CigBack.png */; };
+		5D122D811455F1C7000F206C /* buttonCig.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D122D801455F1C7000F206C /* buttonCig.png */; };
+		5D122D8A1455FF36000F206C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D122D881455FF36000F206C /* MapViewController.m */; };
+		5D122D8B1455FF36000F206C /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D122D891455FF36000F206C /* MapViewController.xib */; };
+		5D122D93145608F7000F206C /* PickerCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D122D92145608F7000F206C /* PickerCustom.m */; };
+		5D122D9E14560B9E000F206C /* iCodeBlogAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D122D9914560B9D000F206C /* iCodeBlogAnnotationView.m */; };
+		5D122D9F14560B9E000F206C /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D122D9B14560B9D000F206C /* MyAnnotation.m */; };
+		5D122DA014560B9E000F206C /* CustomMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D122D9D14560B9E000F206C /* CustomMapView.m */; };
+		5D122DA214560C4A000F206C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D122DA114560C4A000F206C /* MapKit.framework */; };
+		5D122DA41456133D000F206C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D122DA31456133D000F206C /* icon.png */; };
+		5D7E1F2D145B1E6D00ED569E /* UserLocationFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E1F2C145B1E6D00ED569E /* UserLocationFinder.m */; };
+		5D7E1F31145B200400ED569E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7E1F30145B200400ED569E /* CoreLocation.framework */; };
+		5DA9EE5A145DD6AF006410CB /* icon_tick_red.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5DA9EE59145DD6AF006410CB /* icon_tick_red.gif */; };
+		5DA9EE6F145DDADC006410CB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA9EE6E145DDADC006410CB /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C43AA0B1455920300B23603 /* button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = button.jpg; path = CigratteApp/button.jpg; sourceTree = "<group>"; };
+		1C43AA0F14559DB000B23603 /* LoginPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginPageViewController.h; path = CigratteApp/LoginPageViewController.h; sourceTree = "<group>"; };
+		1C43AA1014559DB000B23603 /* LoginPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginPageViewController.m; path = CigratteApp/LoginPageViewController.m; sourceTree = "<group>"; };
+		1C43AA1114559DB000B23603 /* LoginPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginPageViewController.xib; path = CigratteApp/LoginPageViewController.xib; sourceTree = "<group>"; };
+		1C43AA1514559DDD00B23603 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		1C43AA1614559DDD00B23603 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		1C43AA1714559DDD00B23603 /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
 		1C85E27C14556E6F008AAA9A /* CigratteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CigratteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C85E28014556E6F008AAA9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C85E28214556E6F008AAA9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C85E28414556E6F008AAA9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C85E28814556E6F008AAA9A /* CigratteApp-Info.plist */ = {isa = PBXFileReference; path = "CigratteApp-Info.plist"; sourceTree = "<group>"; };
+		1C85E28814556E6F008AAA9A /* CigratteApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CigratteApp-Info.plist"; sourceTree = "<group>"; };
 		1C85E28A14556E6F008AAA9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C85E28C14556E6F008AAA9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C85E28E14556E6F008AAA9A /* CigratteApp-Prefix.pch */ = {isa = PBXFileReference; path = "CigratteApp-Prefix.pch"; sourceTree = "<group>"; };
-		1C85E28F14556E6F008AAA9A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C85E28E14556E6F008AAA9A /* CigratteApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CigratteApp-Prefix.pch"; sourceTree = "<group>"; };
+		1C85E28F14556E6F008AAA9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C85E29014556E6F008AAA9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C85E29714556ECF008AAA9A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1C85E29814556ECF008AAA9A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1C85E29914556ECF008AAA9A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1C85E29D14556EF3008AAA9A /* ModalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalController.m; sourceTree = "<group>"; };
+		1C85E29E14556EF3008AAA9A /* ModalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalController.h; sourceTree = "<group>"; };
+		1C85E2A014556F07008AAA9A /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = CigratteApp/Constant.h; sourceTree = "<group>"; };
+		1C85E2A3145574FA008AAA9A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1C85E2A4145574FA008AAA9A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1C85E2A8145576FA008AAA9A /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		1C85E2A9145576FA008AAA9A /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		1C85E2AC14558BEF008AAA9A /* CigBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CigBack.png; path = CigratteApp/CigBack.png; sourceTree = "<group>"; };
+		5D122D801455F1C7000F206C /* buttonCig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonCig.png; sourceTree = "<group>"; };
+		5D122D871455FF36000F206C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		5D122D881455FF36000F206C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		5D122D891455FF36000F206C /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		5D122D91145608F7000F206C /* PickerCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerCustom.h; sourceTree = "<group>"; };
+		5D122D92145608F7000F206C /* PickerCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerCustom.m; sourceTree = "<group>"; };
+		5D122D9814560B9C000F206C /* iCodeBlogAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCodeBlogAnnotationView.h; sourceTree = "<group>"; };
+		5D122D9914560B9D000F206C /* iCodeBlogAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCodeBlogAnnotationView.m; sourceTree = "<group>"; };
+		5D122D9A14560B9D000F206C /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		5D122D9B14560B9D000F206C /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		5D122D9C14560B9D000F206C /* CustomMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMapView.h; sourceTree = "<group>"; };
+		5D122D9D14560B9E000F206C /* CustomMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMapView.m; sourceTree = "<group>"; };
+		5D122DA114560C4A000F206C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5D122DA31456133D000F206C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5D7E1F2B145B1E6D00ED569E /* UserLocationFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationFinder.h; sourceTree = "<group>"; };
+		5D7E1F2C145B1E6D00ED569E /* UserLocationFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationFinder.m; sourceTree = "<group>"; };
+		5D7E1F30145B200400ED569E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5DA9EE59145DD6AF006410CB /* icon_tick_red.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_tick_red.gif; sourceTree = "<group>"; };
+		5DA9EE6E145DDADC006410CB /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA9EE6F145DDADC006410CB /* AddressBook.framework in Frameworks */,
+				5D7E1F31145B200400ED569E /* CoreLocation.framework in Frameworks */,
+				5D122DA214560C4A000F206C /* MapKit.framework in Frameworks */,
 				1C85E28114556E6F008AAA9A /* UIKit.framework in Frameworks */,
 				1C85E28314556E6F008AAA9A /* Foundation.framework in Frameworks */,
 				1C85E28514556E6F008AAA9A /* CoreGraphics.framework in Frameworks */,
@@ -42,9 +106,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C43AA0E1455920C00B23603 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5D122DA31456133D000F206C /* icon.png */,
+				5DA9EE59145DD6AF006410CB /* icon_tick_red.gif */,
+				5D122D801455F1C7000F206C /* buttonCig.png */,
+				1C43AA0B1455920300B23603 /* button.jpg */,
+				1C85E2AC14558BEF008AAA9A /* CigBack.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1C43AA1414559DB900B23603 /* LoginPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C43AA0F14559DB000B23603 /* LoginPageViewController.h */,
+				1C43AA1014559DB000B23603 /* LoginPageViewController.m */,
+				1C43AA1114559DB000B23603 /* LoginPageViewController.xib */,
+			);
+			name = LoginPageViewController;
+			sourceTree = "<group>";
+		};
+		1C43AA1A14559DE600B23603 /* RegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C43AA1514559DDD00B23603 /* RegistrationViewController.h */,
+				1C43AA1614559DDD00B23603 /* RegistrationViewController.m */,
+				1C43AA1714559DDD00B23603 /* RegistrationViewController.xib */,
+			);
+			name = RegistrationViewController;
+			sourceTree = "<group>";
+		};
 		1C85E27114556E6F008AAA9A = {
 			isa = PBXGroup;
 			children = (
+				5DA9EE6E145DDADC006410CB /* AddressBook.framework */,
+				5D7E1F30145B200400ED569E /* CoreLocation.framework */,
+				5D7E1F2F145B1E7100ED569E /* UserLocation */,
+				5D122DA114560C4A000F206C /* MapKit.framework */,
+				5D122D9814560B9C000F206C /* iCodeBlogAnnotationView.h */,
+				5D122D9914560B9D000F206C /* iCodeBlogAnnotationView.m */,
+				5D122D9A14560B9D000F206C /* MyAnnotation.h */,
+				5D122D9B14560B9D000F206C /* MyAnnotation.m */,
+				5D122D9C14560B9D000F206C /* CustomMapView.h */,
+				5D122D9D14560B9E000F206C /* CustomMapView.m */,
+				5D122D91145608F7000F206C /* PickerCustom.h */,
+				5D122D92145608F7000F206C /* PickerCustom.m */,
+				5D122D8C1455FF40000F206C /* MapViewController */,
+				1C43AA1A14559DE600B23603 /* RegistrationViewController */,
+				1C43AA1414559DB900B23603 /* LoginPageViewController */,
+				1C43AA0E1455920C00B23603 /* Images */,
+				1C85E2AB145576FD008AAA9A /* XMLReader */,
+				1C85E2A3145574FA008AAA9A /* MBProgressHUD.h */,
+				1C85E2A4145574FA008AAA9A /* MBProgressHUD.m */,
+				1C85E2A014556F07008AAA9A /* Constant.h */,
+				1C85E29D14556EF3008AAA9A /* ModalController.m */,
+				1C85E29E14556EF3008AAA9A /* ModalController.h */,
 				1C85E28614556E6F008AAA9A /* CigratteApp */,
 				1C85E27F14556E6F008AAA9A /* Frameworks */,
 				1C85E27D14556E6F008AAA9A /* Products */,
@@ -74,6 +192,7 @@
 			children = (
 				1C85E28F14556E6F008AAA9A /* AppDelegate.h */,
 				1C85E29014556E6F008AAA9A /* AppDelegate.m */,
+				1C85E29C14556ED4008AAA9A /* LoginViewController */,
 				1C85E28714556E6F008AAA9A /* Supporting Files */,
 			);
 			path = CigratteApp;
@@ -88,6 +207,44 @@
 				1C85E28E14556E6F008AAA9A /* CigratteApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C85E29C14556ED4008AAA9A /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E29714556ECF008AAA9A /* LoginViewController.h */,
+				1C85E29814556ECF008AAA9A /* LoginViewController.m */,
+				1C85E29914556ECF008AAA9A /* LoginViewController.xib */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		1C85E2AB145576FD008AAA9A /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				1C85E2A8145576FA008AAA9A /* XMLReader.h */,
+				1C85E2A9145576FA008AAA9A /* XMLReader.m */,
+			);
+			name = XMLReader;
+			sourceTree = "<group>";
+		};
+		5D122D8C1455FF40000F206C /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D122D871455FF36000F206C /* MapViewController.h */,
+				5D122D881455FF36000F206C /* MapViewController.m */,
+				5D122D891455FF36000F206C /* MapViewController.xib */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		5D7E1F2F145B1E7100ED569E /* UserLocation */ = {
+			isa = PBXGroup;
+			children = (
+				5D7E1F2B145B1E6D00ED569E /* UserLocationFinder.h */,
+				5D7E1F2C145B1E6D00ED569E /* UserLocationFinder.m */,
+			);
+			name = UserLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +299,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C85E28B14556E6F008AAA9A /* InfoPlist.strings in Resources */,
+				1C85E29B14556ECF008AAA9A /* LoginViewController.xib in Resources */,
+				1C85E2AD14558BF0008AAA9A /* CigBack.png in Resources */,
+				1C43AA0C1455920300B23603 /* button.jpg in Resources */,
+				1C43AA1314559DB000B23603 /* LoginPageViewController.xib in Resources */,
+				1C43AA1914559DDD00B23603 /* RegistrationViewController.xib in Resources */,
+				5D122D811455F1C7000F206C /* buttonCig.png in Resources */,
+				5D122D8B1455FF36000F206C /* MapViewController.xib in Resources */,
+				5D122DA41456133D000F206C /* icon.png in Resources */,
+				5DA9EE5A145DD6AF006410CB /* icon_tick_red.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +320,18 @@
 			files = (
 				1C85E28D14556E6F008AAA9A /* main.m in Sources */,
 				1C85E29114556E6F008AAA9A /* AppDelegate.m in Sources */,
+				1C85E29A14556ECF008AAA9A /* LoginViewController.m in Sources */,
+				1C85E29F14556EF3008AAA9A /* ModalController.m in Sources */,
+				1C85E2A6145574FA008AAA9A /* MBProgressHUD.m in Sources */,
+				1C85E2AA145576FA008AAA9A /* XMLReader.m in Sources */,
+				1C43AA1214559DB000B23603 /* LoginPageViewController.m in Sources */,
+				1C43AA1814559DDD00B23603 /* RegistrationViewController.m in Sources */,
+				5D122D8A1455FF36000F206C /* MapViewController.m in Sources */,
+				5D122D93145608F7000F206C /* PickerCustom.m in Sources */,
+				5D122D9E14560B9E000F206C /* iCodeBlogAnnotationView.m in Sources */,
+				5D122D9F14560B9E000F206C /* MyAnnotation.m in Sources */,
+				5D122DA014560B9E000F206C /* CustomMapView.m in Sources */,
+				5D7E1F2D145B1E6D00ED569E /* UserLocationFinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +355,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -191,7 +370,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PROVISIONING_PROFILE = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -202,15 +383,18 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -219,10 +403,15 @@
 		1C85E29514556E6F008AAA9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CigratteApp/CigratteApp-Prefix.pch";
 				INFOPLIST_FILE = "CigratteApp/CigratteApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -230,10 +419,15 @@
 		1C85E29614556E6F008AAA9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruce Hultgren (3L2BQ76E8A)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CigratteApp/CigratteApp-Prefix.pch";
 				INFOPLIST_FILE = "CigratteApp/CigratteApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "535177A2-C5B0-4CD6-B376-6FDB8D0A3807";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -257,6 +451,7 @@
 				1C85E29614556E6F008AAA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

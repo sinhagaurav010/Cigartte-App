@@ -2,9 +2,7 @@
 //  main.m
 //  CigratteApp
 //
-//  Created by Rohit Dhawan on 24/10/11.
-//  Copyright (c) 2011 rohit@bosswebtech.com. All rights reserved.
-//
+ //
 
 #import <UIKit/UIKit.h>
 

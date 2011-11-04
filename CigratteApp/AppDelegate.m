@@ -2,9 +2,7 @@
 //  AppDelegate.m
 //  CigratteApp
 //
-//  Created by Rohit Dhawan on 24/10/11.
-//  Copyright (c) 2011 rohit@bosswebtech.com. All rights reserved.
-//
+ //
 
 #import "AppDelegate.h"
 
@@ -14,9 +12,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"app delegate");
+    userLocation = [[UserLocationFinder alloc] init];
+    [userLocation findCurrentLocation];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    LoginViewController *loginController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    navigation = [[UINavigationController alloc] initWithRootViewController:loginController];
+    [self.window addSubview:navigation.view];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
