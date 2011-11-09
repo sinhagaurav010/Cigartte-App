@@ -10,3 +10,5 @@
 #define TITLELOGIN @"LOGIN"
 
 UserLocationFinder *userLocation;
+
+NSInteger versionNum;

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  CigratteApp
 //
- //
+//
 
 #import "AppDelegate.h"
 
@@ -13,6 +13,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"app delegate");
+    
+    NSString* versionNumber = [[UIDevice currentDevice] systemVersion];
+    NSLog(@"%@",versionNumber);
+    
+    versionNum = [versionNumber integerValue];
+    
+    //    if([versionNumber integerValue]<5)
+    //        NSLog(@"55555");
+    //    
     userLocation = [[UserLocationFinder alloc] init];
     [userLocation findCurrentLocation];
     

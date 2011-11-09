@@ -10,6 +10,9 @@
 
 //#define LINKMAPURL @"http://maps.google.com/maps?saddr=%@,%@&daddr=%@"
 #define LINKMAPURL @"http://maps.google.com/maps?saddr=%@&daddr=%@"
+
+#define LINKMAPURLIOS4 @"http://maps.google.com/maps?saddr=%f,%f&daddr=%f,%f"
+
 @interface MapViewController : UIViewController<customMapvViewDelegate>
 {
     CLGeocoder *reverseGeo;

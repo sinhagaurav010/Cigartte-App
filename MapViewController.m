@@ -57,39 +57,44 @@
 -(void)clickAtindex:(NSInteger)index
 {
     
-    
-    if (!self.reverseGeo) {
-        self.reverseGeo = [[CLGeocoder alloc] init];
+    if(versionNum < 5)
+    {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURLIOS4,userLocation.strUserLat,userLocation.strUserLong,[[[arrayLatLong objectAtIndex:index]objectForKey:@"Lat"] floatValue],[[[arrayLatLong objectAtIndex:index]objectForKey:@"Long"] floatValue]]]];
+    }
+    else
+    {
+        if (!self.reverseGeo) {
+            self.reverseGeo = [[CLGeocoder alloc] init];
+        }
+        
+        CLLocation *loc = [[CLLocation alloc] initWithLatitude:[[[arrayLatLong objectAtIndex:index]objectForKey:@"Lat"] floatValue] longitude:[[[arrayLatLong objectAtIndex:index]objectForKey:@"Long"] floatValue]];
+        
+        [self.reverseGeo reverseGeocodeLocation: loc completionHandler: 
+         ^(NSArray *placemarks, NSError *error) {
+             
+             for (CLPlacemark *placemark in placemarks) {
+                 
+                 //             NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+                 //             [formatter setTimeStyle:NSDateFormatterNoStyle];
+                 //             [formatter setDateStyle:NSDateFormatterLongStyle];
+                 //             
+                 //             NSString *dateString = [formatter stringFromDate: [self dateAdded]];
+                 //             [self setSubtitle: [dateString stringByAppendingString: [placemark locality] ] ];
+                 NSLog(@"%@",[placemark locality]);
+                 stringDes = [placemark locality];
+                 NSLog(@"%@",[NSString stringWithFormat:LINKMAPURL,userLocation.strUserAdd,stringDes]);
+                 //             
+                 //             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserAdd,stringDes]]];
+                 
+                 // [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserLat,userLocation.strUserLong,stringDes]]];
+                 
+                 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserAdd,stringDes]]];
+             }
+         }];
+        
     }
     
-    CLLocation *loc = [[CLLocation alloc] initWithLatitude:[[[arrayLatLong objectAtIndex:index]objectForKey:@"Lat"] floatValue] longitude:[[[arrayLatLong objectAtIndex:index]objectForKey:@"Long"] floatValue]];
-    
-    [self.reverseGeo reverseGeocodeLocation: loc completionHandler: 
-     ^(NSArray *placemarks, NSError *error) {
-         
-         for (CLPlacemark *placemark in placemarks) {
-             
-//             NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-//             [formatter setTimeStyle:NSDateFormatterNoStyle];
-//             [formatter setDateStyle:NSDateFormatterLongStyle];
-//             
-//             NSString *dateString = [formatter stringFromDate: [self dateAdded]];
-//             [self setSubtitle: [dateString stringByAppendingString: [placemark locality] ] ];
-             NSLog(@"%@",[placemark locality]);
-             stringDes = [placemark locality];
-             NSLog(@"%@",[NSString stringWithFormat:LINKMAPURL,userLocation.strUserAdd,stringDes]);
-//             
-//             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserAdd,stringDes]]];
-             
-             // [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserLat,userLocation.strUserLong,stringDes]]];
-             
-              [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserAdd,stringDes]]];
-         }
-     }];
-    
-    
-    
-//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserLat,userLocation.strUserLong,[[arrayLatLong objectAtIndex:index]objectForKey:@"Lat"],[[arrayLatLong objectAtIndex:index ]objectForKey:@"Long"]]]];
+    //    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:LINKMAPURL,userLocation.strUserLat,userLocation.strUserLong,[[arrayLatLong objectAtIndex:index]objectForKey:@"Lat"],[[arrayLatLong objectAtIndex:index ]objectForKey:@"Long"]]]];
     
     
     
